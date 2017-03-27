@@ -6,22 +6,16 @@
     <title>Logger</title>
     <authors>MAQ Software</authors>
     <owners>MAQ Software</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>This package contains Logger.dll file</description>
-    <releaseNotes>This is version 1.0 of package. This package contains Logger.dll file.</releaseNotes>
+    <licenseUrl>https://github.com/maqsoftware/logger/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/maqsoftware/logger</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/maqsoftware/logger/master/MAQ.Logger/Icon/icon.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Logger is a client library which logs a message in the Event Viewer, or text file an Azure table storage.</description>
+    <releaseNotes>Logs exception, information, warning in text file, or Azure table storage, or Event Viewer</releaseNotes>
     <copyright>Copyright 2017</copyright>
-    <tags>Log Logger Logging</tags>
+    <tags>Exception Warning Information AzureTableStorageLog EventViewerLog TextLog Log Logging Logger</tags>
     <dependencies>
-      <dependency id="WindowsAzure.Storage" version="7.2.1"/>
-      <dependency id="Microsoft.Azure.KeyVault.Core" version="1.0.0.0"/>
-      <dependency id="Microsoft.Data.Edm" version="5.6.4"  />
-      <dependency id="Microsoft.Data.OData" version="5.6.4"  />
-      <dependency id="Microsoft.Data.Services.Client" version="5.6.4"/>
-      <dependency id="Newtonsoft.Json" version="6.0.8"/>
-      <dependency id="System.Spatial" version="5.6.4"/>
+      <dependency id="WindowsAzure.Storage" version="8.1.1"/>
     </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System.Configuration" />
