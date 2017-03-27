@@ -1,4 +1,4 @@
-# Logger - MAQ
+# Logger
 
 Logger library simplifies application execution logging at a target location. The target location can be a Text file, Windows Event Log or Azure Table storage. The library can be integrated in a .NET application.
 
